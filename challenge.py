@@ -20,7 +20,9 @@ def to_12Hour(time):                            # Function that takes a 24 hour 
                 return f"{hour}:{minute} AM"
 
 
+def main():             # Main function that runs the code
+    ti = "0060"
+    result = to_12Hour(ti)      # Function call for the converter
+    print(result)
 
-ti = "0060"
-result = to_12Hour(ti)
-print(result)
+main()
